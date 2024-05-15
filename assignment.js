@@ -55,3 +55,19 @@ else if (number<0){
 else{
    console.log("The number is zero");
 }
+//logical operators
+1.// let score = +prompt("enter your score"); 
+// if (score >= 80 && score <= 90){
+//     console.log("you are passed");
+// }
+// else{
+//     console.log("you are faild");  
+// }
+
+2.let score = +prompt("enter your score"); 
+if (score >= 80 || score <= 60){
+    console.log("you are passed");
+}
+else{
+    console.log("you are faild");  
+}
